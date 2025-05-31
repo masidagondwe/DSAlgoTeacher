@@ -10,16 +10,17 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace DSAlgoTeacher.Views
 {
     /// <summary>
-    /// Interaction logic for AlgorithmsView.xaml
+    /// Interaction logic for UCAlgorithms.xaml
     /// </summary>
-    public partial class AlgorithmsView : Window
+    public partial class UCAlgorithms : UserControl
     {
-        public AlgorithmsView()
+        public UCAlgorithms()
         {
             InitializeComponent();
         }

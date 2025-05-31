@@ -10,16 +10,17 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace DSAlgoTeacher.Views
 {
     /// <summary>
-    /// Interaction logic for HomeView.xaml
+    /// Interaction logic for UCDataStructures.xaml
     /// </summary>
-    public partial class HomeView : Window
+    public partial class UCDataStructures : UserControl
     {
-        public HomeView()
+        public UCDataStructures()
         {
             InitializeComponent();
         }
